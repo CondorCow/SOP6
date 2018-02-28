@@ -8,9 +8,9 @@ public class MyUnitTest {
     public void testConcatenate() {
         MyUnit myUnit = new MyUnit();
 
-        String result = myUnit.concatenate("one", "two");
+        String result = myUnit.concatenate("one", "three");
 
-        assertEquals("onetwo", result);
+        assertEquals("onethree", result);
 
     }
 }
