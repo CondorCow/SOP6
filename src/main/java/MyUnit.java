@@ -11,6 +11,7 @@ public class MyUnit {
 
     public void giveMoney(double amount){
         employee.setSalary(amount);
+        //TEST
     }
 
     public String getEmployeeInfo(){
